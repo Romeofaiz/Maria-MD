@@ -861,7 +861,7 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/OfficialAnjanv2/ANJAN-XD-BOT");
+let repoInfo = await axios.get("https://api.github.com/repos/Mranjan101/Mr-anjannewbot'");
         let repo = repoInfo.data;
         console.log(repo);
 
