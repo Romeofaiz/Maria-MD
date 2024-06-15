@@ -1158,7 +1158,7 @@ let yts = require("youtube-yts")
         let search = await yts(text)
         let anup3k = search.videos[0]
 const pl= await Ayushplaymp3.mp3(anup3k.url);
-reply('```🎉𝚫𝚴𝐉𝚫𝚴 𝚾𝐃  𝐒𝚵𝚴𝐃𝚰𝚴𝐆 𝐒𝚯𝚴𝐆.....🎉```');
+reply('```🎊𝚫𝚴𝐉𝚫𝚴-𝚾𝐃 𝐒𝚵𝚴𝐃𝚰𝚴𝐆 𝐒𝚯𝚴𝐆.....🎉```');
 await Maria.sendMessage(m.chat,{
     audio: fs.readFileSync(pl.path),
     fileName: anup3k.title + '.mp3',
