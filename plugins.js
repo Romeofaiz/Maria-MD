@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "919883457657"
+let phoneNumber = "918433897160"
 let owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -88,7 +88,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
       setTimeout(async () => {
          let code = await Maria.requestPairingCode(phoneNumber)
          code = code?.match(/.{1,4}/g)?.join("-") || code
-         console.log(chalk.black(chalk.bgGreen(`✨️Anjan xd Pairing Code✨️: `)), chalk.black(chalk.white(code)))
+         console.log(chalk.black(chalk.bgGreen(`✨️ Romek -xd Pairing Code✨️: `)), chalk.black(chalk.white(code)))
       }, 3000)
    }
 
@@ -166,7 +166,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Anjan-Xd'));
+console.log(chalk.green('🟨Welcome to Romek xd'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 		await delay(1000 * 2) 
             Maria.groupAcceptInvite("KLNTBqPjqCW5Pa8vCzcXBw")
