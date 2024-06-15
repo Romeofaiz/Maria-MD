@@ -2,18 +2,18 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernumber = ['919883457657']
-global.ownername = "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★"//owner name
+global.ownernumber = ['918433897160']
+global.ownername = "𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗩𝟯★"//owner name
 global.ytname = "YT: AnjanBotz.inc"
 global.socialm = "GitHub: OfficialAnjanv2"
 global.location = "Indian"
 
-global.botname = '★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★' //name of the bot
+global.botname = '𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗩𝟯★' //name of the bot
 
 //sticker details
-global.stickername = '★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★'
+global.stickername = '𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗩𝟯★'
 global.packname = 'Sticker By'
-global.author = '★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★'
+global.author = '★𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗩𝟯★'
 //console view/theme
 global.themeemoji = '🧩'
 global.wm = "Anjan botz inc."
@@ -38,7 +38,7 @@ global.autoread_status = false //auto view status/story
 
 //reply messages
 global.mess = {
-    done: '*here you go!* \n\n*🎀 Anjan-xd  🎀*\n\n*🧩 Bot link:* \nhttps://github.com/Mranjan101/Mr-anjannewbot\n',
+    done: '*here you go!* \n\n*🎀 romek-xd  🎀*\n\n*🧩 Bot link:* \nhttps://github.com/Romeofaiyaz/ROMEK-XD-BOT\n',
     prem: '*This feature can be used by premium user only*',
     admin: '*This feature can be used by admin only*',
     botAdmin: '*This feature can only be used when the bot is a group admin* ',
